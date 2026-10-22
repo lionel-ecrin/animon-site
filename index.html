@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Animon</title>
+<style>
+:root{--fond:#141a22;--bloc:#222e3c;--texte:#f3f6f9;--doux:#9ba8b8;--accent:#ffc93c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--fond);color:var(--texte);
+ font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+ padding:48px 20px;display:flex;justify-content:center}
+main{max-width:620px;width:100%}
+h1{font-size:40px;letter-spacing:-.02em;margin-bottom:6px}
+.sous{color:var(--doux);font-size:18px;margin-bottom:34px}
+h2{font-size:20px;margin:34px 0 10px}
+p{margin-bottom:14px}
+a{color:var(--accent)}
+.bloc{background:var(--bloc);border-radius:16px;padding:20px;margin:24px 0}
+.liens{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.liens a{background:var(--accent);color:#1b2330;text-decoration:none;font-weight:700;
+ padding:12px 20px;border-radius:999px}
+footer{color:var(--doux);font-size:14px;margin-top:48px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Animon</h1>
+  <p class="sous">Un jeu de cartes à collectionner où tous les animaux sont réels.</p>
+
+  <p>412 espèces, photographiées dans la nature. Les points de vie d'une carte viennent
+  du poids réel de l'animal, sa rapidité de sa vitesse mesurée, et sa rareté de ce qu'il
+  en reste dans la nature. Rien n'est inventé.</p>
+
+  <div class="bloc">
+    <h2 style="margin-top:0">Besoin d'aide&nbsp;?</h2>
+    <p>Une question, un problème, une erreur dans une fiche d'espèce&nbsp;?
+    Écrivez à <a href="mailto:lionel@ecrin.ai">lionel@ecrin.ai</a>. Nous répondons
+    sous quelques jours.</p>
+  </div>
+
+  <div class="liens">
+    <a href="confidentialite.html">Politique de confidentialité</a>
+  </div>
+
+  <footer>
+    Les photographies proviennent de Wikimedia Commons sous licence libre.
+    L'auteur et la licence de chacune sont indiqués dans l'application, sur la fiche
+    de l'espèce concernée.
+  </footer>
+</main>
+</body>
+</html>
